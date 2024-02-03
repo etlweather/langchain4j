@@ -65,7 +65,7 @@ Once you've set up the key, let's create an instance of an `OpenAiChatModel`:
 ```java
 OpenAiChatModel model = OpenAiChatModel.withApiKey(apiKey);
 ```
-No, it is time to chat!
+Now, it is time to chat!
 ```java
 String answer = model.generate("Say 'Hello World'");
 System.out.println(answer);
